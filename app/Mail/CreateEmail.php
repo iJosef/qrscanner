@@ -28,6 +28,11 @@ class CreateEmail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.create_email');
+        return $this->view('emails.create_email')
+                    ->subject('Joseph Emeruwa')
+                    ->attach(public_path('document/Receipt_for_John Doe.pdf'), [
+                        'as' => 'name.pdf',
+                        'mime' => 'application/pdf',
+                    ]);
     }
 }

@@ -25,7 +25,7 @@
 
         <h1>Scan me to get article sent to your email</h1>
 
-        {!! QrCode::size(250)->generate('https://google.com'); !!}
+        {!! QrCode::size(250)->generate(url('/receive_resume')); !!}
         {{-- <img src="data:image/png;base64, {{ base64_encode(QrCode::format('png')->size(250)->generate('https://google.com')) }}" alt=""> --}}
 
         <p>- By Joseph Emeruwa 🤓</p>

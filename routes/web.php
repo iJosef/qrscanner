@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SendEmailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,8 +28,10 @@ Route::get('qr-code-g', function () {
 
 });
 
-Route::get('form', function () {
+Route::get('receive_resume', function () {
     return view('email_form');
 });
+
+Route::post('send_mail_to_visitor', [SendEmailController::class, 'send_mail_to_visitor']);
 
 // Route::get('test', fn () => phpinfo());
