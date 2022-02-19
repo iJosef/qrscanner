@@ -29,9 +29,9 @@ class CreateEmail extends Mailable
     public function build()
     {
         return $this->view('emails.create_email')
-                    ->subject('Joseph Emeruwa')
-                    ->attach(public_path('document/Receipt_for_John Doe.pdf'), [
-                        'as' => 'name.pdf',
+                    ->subject('Software Developer Looking For A New Challenge - Joseph Emeruwa\'s CV')
+                    ->attach(public_path('document/Joseph_Emeruwa_CV.pdf'), [
+                        'as' => 'Joseph_Emeruwa_CV.pdf',
                         'mime' => 'application/pdf',
                     ]);
     }

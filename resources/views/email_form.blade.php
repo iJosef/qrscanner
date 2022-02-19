@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title></title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <!------ Include the above in your HEAD tag ---------->
 
@@ -19,7 +19,7 @@
                Check out — it’s free!
             </h1>
             <h2 class="wv-heading--subtitle">
-               Kindly enter your email to get document sent to you.
+               Kindly enter your email to get CV sent to you.
             </h2>
          </div>
       </div>
@@ -32,7 +32,7 @@
                      <input type="email" name="email"  class="form-control my-input" id="email" placeholder="Email" required>
                   </div>
                   <div class="text-center ">
-                     <button type="submit" class=" btn btn-block send-button tx-tfm"> <span id="form_spinner"><i class="fa fa-paper-plane-o"></i></span> Receive  </button>
+                     <button type="submit" class=" btn btn-block send-button tx-tfm"> <span id="form_spinner"><i class="fa fa-paper-plane-o"></i></span> Receive  CV</button>
                   </div>
                </form>
             </div>
