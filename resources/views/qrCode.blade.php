@@ -25,7 +25,8 @@
 
         <h1>Scan me to get CV sent to your mailbox</h1>
 
-        {!! QrCode::size(250)->generate(url('/receive_resume')); !!}
+        {{-- {!! QrCode::size(250)->generate(url('/receive_resume')); !!} --}}
+        {!! QrCode::size(250)->generate('https://bit.ly/3oYWdFC'); !!}
         {{-- <img src="data:image/png;base64, {{ base64_encode(QrCode::format('png')->size(250)->generate('https://google.com')) }}" alt=""> --}}
 
         <p>- By Joseph Emeruwa 🤓</p>
