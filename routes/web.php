@@ -15,7 +15,8 @@ use App\Http\Controllers\SendEmailController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // return view('welcome');
+    return view('qrCode');
 });
 
 Route::get('qr-code-g', function () {
